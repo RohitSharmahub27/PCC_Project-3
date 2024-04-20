@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  
+</head>
+<body>
+
+  <!-- Rating state start -->
+  
+  <div class="card">
+
+    <div class="card-container">
+      
+      <div class="rating_section ">
+        <div class="star-circle">
+          <img src="images/icon-star.svg" alt="icon-star">
+        </div>
+  
+        <h1 class="title">
+          How did we do?
+        </h1>
+        <p class="paragraph">
+          <i>let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!</i> 
+        </p>
+  
+        <div class="rating-circles">
+          <span class="circle">1</span>
+          <span class="circle">2</span>
+          <span class="circle">3</span>
+          <span class="circle">4</span>
+          <span class="circle">5</span>
+        </div>
+        <button class="submit_button">
+          S U B M I T
+        </button>
+      </div>
+      <!-- Rating state end -->
+      
+      <!-- Thank you state start -->
+      <div class="thanks_section hidden">
+        <div class="image">
+          <img src="images/illustration-thank-you.svg" alt="thank you">
+        </div>
+        <div class="selection-part">
+          <p>You selected <span id="rate"></span> out of 5</p>
+        </div>
+        <h1 class="title">
+          Thank you!
+        </h1>
+        <p class="paragraph">
+          <i>We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</i>
+        </p>
+      </div>
+
+    </div>
+    
+  </div>
+  <!-- Thank you state end -->
+  
+  <div class="attribution">
+   Created by <a>Rohit Sharma</a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
